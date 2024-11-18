@@ -14,6 +14,9 @@ export default {
     filename: '[name].js',
     clean: true
   },
+  stats: {
+    children: true
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html'
